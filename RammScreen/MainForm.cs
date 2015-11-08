@@ -59,7 +59,7 @@ namespace RammScreen
                 {
                     _img.Save(imgpath, ImageFormat.Png);
                     //upload image to ftp server
-                    FTP ftpClient = new FTP(Settings.Default.FTPHost, Settings.Default.FTPUser, Settings.Default.FTPPass);
+                    FTP ftpClient = new FTP("ftp://rammscreen.ga", "rammscreen", "b#1l7DORZsd");
                     if (ftpClient.Upload(ftppath + imgname, imgpath))
                     {
                         Process.Start(webpath + imgname);

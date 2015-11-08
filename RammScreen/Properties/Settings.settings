@@ -1,15 +1,5 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RammScreen.Properties" GeneratedClassName="Settings">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
   <Profiles />
-  <Settings>
-    <Setting Name="FTPHost" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">ftp://rammscreen.ga/</Value>
-    </Setting>
-    <Setting Name="FTPUser" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">rammscreen</Value>
-    </Setting>
-    <Setting Name="FTPPass" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">b#1l7DORZsd</Value>
-    </Setting>
-  </Settings>
+  <Settings />
 </SettingsFile>

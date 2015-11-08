@@ -22,32 +22,5 @@ namespace RammScreen.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("ftp://rammscreen.ga/")]
-        public string FTPHost {
-            get {
-                return ((string)(this["FTPHost"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("rammscreen")]
-        public string FTPUser {
-            get {
-                return ((string)(this["FTPUser"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("b#1l7DORZsd")]
-        public string FTPPass {
-            get {
-                return ((string)(this["FTPPass"]));
-            }
-        }
     }
 }
